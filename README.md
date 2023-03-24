@@ -1,1 +1,0 @@
-# indigo-turtle-chat-app
