@@ -8,8 +8,16 @@
   
   /* Room and users component */
   .roomAndUsersColumn {
+    height: 100vh;
     border-right: 1px solid #dfdfdf;
+    padding: 1.5em;
   }
+
+  .roomAndUsersColumn button {
+    max-width: 90%;
+    margin-top: 4rem auto;
+  }
+
   .roomTitle {
     margin-bottom: 60px;
     text-transform: uppercase;

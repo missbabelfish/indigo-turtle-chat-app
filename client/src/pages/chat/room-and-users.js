@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const RoomAndUsers = ({ socket, username, room }) => {
-  const [roomUsers, setRoomUsers] = useState([]);
+  const [roomUsers, setRoomUsers] = useState([]); 
 
   const navigate = useNavigate();
 
@@ -38,6 +38,7 @@ const RoomAndUsers = ({ socket, username, room }) => {
               key={user.id}
             >
               {user.username}
+              userOne
             </li>
           ))}
         </ul>
